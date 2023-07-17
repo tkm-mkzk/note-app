@@ -54,7 +54,7 @@ export const useMutateNote = () => {
     },
     {
       onSuccess: () => {
-        revalidateList()
+        // revalidateList()
         reset()
         alert('Successfully completed !!')
       },
